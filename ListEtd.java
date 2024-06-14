@@ -29,21 +29,21 @@ public class ListEtd {
 
         // Crrer l'objet
          ListEtd etd = new ListEtd();
-         System.out.println(etd.ID);
-         System.out.println(etd.nom);
+         System.out.println("ID : " +etd.ID);
+         System.out.println("Nom :"+etd.nom);
          /*  Remplacer une valeur qui exixte 
           on remplace le prenom */ 
         etd.prenom = "Maoulida Abdou";
-        System.out.println(etd.prenom);
+        System.out.println("Prenom :"+etd.prenom);
         // System.out.println(etd.prenom);
-         System.out.println(etd.age);
-         System.out.println(etd.niveau);
-         System.out.println(etd.filiere);
-         System.out.println(etd.village);
-         System.out.println(etd.ecole);
+         System.out.println("Age :" +etd.age);
+         System.out.println("Niveau :" +etd.niveau);
+         System.out.println("Filiere :"+etd.filiere);
+         System.out.println("Village :" +etd.village);
+         System.out.println("Ecole :" +etd.ecole);
          // la modification
          etd.sexe = "M";
-         System.out.println("Le sexe est " + etd.sexe);
+         System.out.println("Sexe : " + etd.sexe);
          System.out.println("**********************************************");
 
          // Appellons la Methode myMethode()

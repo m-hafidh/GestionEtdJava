@@ -8,9 +8,9 @@ public class Etudiants {
 
     public static void main(String[] args) {
         Scanner SC = new Scanner(System.in);
-        
 
-        // L'entrer du chaine
+       
+              // L'entrer du chaine
         System.out.println("Entrer votre Nom");
         String nom = SC.nextLine();
 
@@ -27,7 +27,10 @@ public class Etudiants {
 
         System.out.println("le Nom de l'etudiant est :" + nom);
         System.out.println("l'age de l'etudiant est :" + age+ " ans ");
-        System.out.println("la Moyenne de l'etudiant est :" + Moyenne);
+        System.out.println("la Moyenne de l'etudiant est :" + Moyenne);    
 
     }
+
+    
+    
 }
